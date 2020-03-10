@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0b9b004-03a1-4cbc-8fdd-198b58bd9163" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="202" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XhllUKiCBepA1YOfUnWevDpRyY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/test" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.claro.nifi.processors.controlduplicaterecords" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CTI8820\Desktop\mediacion-procesador-archetype\control_duplicate_records\nifi-controlduplicaterecords-processors\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ControlDuplicateRecordsTest">
+    <configuration name="ControlDuplicateRecordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-controlduplicaterecords-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.claro.nifi.processors.controlduplicaterecords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.claro.nifi.processors.controlduplicaterecords" />
+      <option name="MAIN_CLASS_NAME" value="org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecordsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlDuplicateRecordsTest.TestCSV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-controlduplicaterecords-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.claro.nifi.processors.controlduplicaterecords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.claro.nifi.processors.controlduplicaterecords" />
+      <option name="MAIN_CLASS_NAME" value="org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecordsTest" />
+      <option name="METHOD_NAME" value="TestCSV" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlDuplicateRecordsTest.TestJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-controlduplicaterecords-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.claro.nifi.processors.controlduplicaterecords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.claro.nifi.processors.controlduplicaterecords" />
+      <option name="MAIN_CLASS_NAME" value="org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecordsTest" />
+      <option name="METHOD_NAME" value="TestJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlDuplicateRecordsTest.compareRelationship" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-controlduplicaterecords-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.claro.nifi.processors.controlduplicaterecords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.claro.nifi.processors.controlduplicaterecords" />
+      <option name="MAIN_CLASS_NAME" value="org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecordsTest" />
+      <option name="METHOD_NAME" value="compareRelationship" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlDuplicateRecordsTest.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-controlduplicaterecords-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.claro.nifi.processors.controlduplicaterecords.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.claro.nifi.processors.controlduplicaterecords" />
+      <option name="MAIN_CLASS_NAME" value="org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecordsTest" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ControlDuplicateRecordsTest" />
+        <item itemvalue="JUnit.ControlDuplicateRecordsTest.testCount" />
+        <item itemvalue="JUnit.ControlDuplicateRecordsTest.TestJson" />
+        <item itemvalue="JUnit.ControlDuplicateRecordsTest.TestCSV" />
+        <item itemvalue="JUnit.ControlDuplicateRecordsTest.compareRelationship" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0b9b004-03a1-4cbc-8fdd-198b58bd9163" name="Default Changelist" comment="" />
+      <created>1581506357726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581506357726</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="316" y="95" key="#ControlDuplicateRecordsTest" timestamp="1581521755031">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="316" y="95" key="#ControlDuplicateRecordsTest/0.0.1440.860@0.0.1440.860" timestamp="1581521755031" />
+    <state x="102" y="92" width="1396" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583843894019">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1256" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.860@0.0.1440.860" timestamp="1581707453317" />
+    <state x="102" y="92" width="1396" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1583843894019" />
+    <state x="524" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1581510121080">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="524" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1581510121080" />
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581506469313">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1581506469313" />
+    <state width="1554" height="333" key="GridCell.Tab.0.bottom" timestamp="1583845245633">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1394" height="333" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
+    <state width="1554" height="333" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
+    <state width="1554" height="333" key="GridCell.Tab.0.center" timestamp="1583845245633">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1394" height="333" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
+    <state width="1554" height="333" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
+    <state width="1554" height="333" key="GridCell.Tab.0.left" timestamp="1583845245633">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1394" height="333" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
+    <state width="1554" height="333" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
+    <state width="1554" height="333" key="GridCell.Tab.0.right" timestamp="1583845245633">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1394" height="333" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
+    <state width="1554" height="333" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
+    <state x="249" y="83" key="Maven.ArtifactSearchDialog" timestamp="1581511005532">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="249" y="83" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1581511005532" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583845169860">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583845169860" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_TestJson.ic" NAME="ControlDuplicateRecordsTest.TestJson Coverage Results" MODIFIED="1581602521152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_compareRelationship.ic" NAME="ControlDuplicateRecordsTest.compareRelationship Coverage Results" MODIFIED="1581601674577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ControlDuplicateRecords_master$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1583845205441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1581709496985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_TestCSV.ic" NAME="ControlDuplicateRecordsTest.TestCSV Coverage Results" MODIFIED="1581602474056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_testCount.ic" NAME="ControlDuplicateRecordsTest.testCount Coverage Results" MODIFIED="1581602578170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+  </component>
+</project>

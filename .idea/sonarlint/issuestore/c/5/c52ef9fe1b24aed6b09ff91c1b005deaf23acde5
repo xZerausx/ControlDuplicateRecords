@@ -1,0 +1,11 @@
+
+gsquid:HiddenFieldCheck"@Rename "descriptors" which hides the field declared at line 157.(­í†ô8¬žŽÉƒ.
+fsquid:HiddenFieldCheck"?Rename "recordPaths" which hides the field declared at line 65.(å‡„½8–€ÌÊƒ.
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­í†ô8¬žŽÉƒ.
+Osquid:S3077".Remove the "volatile" keyword from this field.(ÿÊÞÅþÿÿÿÿ8Æ‘¥Íƒ.
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(àÏ±Øúÿÿÿÿ8¬žŽÉƒ.
+nsquid:HiddenFieldCheck"BRename "relationships" which hides the field declared at line 159.(àÏ±Øúÿÿÿÿ8¬žŽÉƒ.
+Wsquid:UselessImportCheck"/Remove this unused import 'java.sql.ResultSet'.(ˆóÚw8¶äÌÿƒ.
+¢squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ª½ÿàüÿÿÿÿ8¬žŽÉƒ.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8¥±­ª„.
+Osquid:S3077".Remove the "volatile" keyword from this field.(š€ÌÜøÿÿÿÿ8–€ÌÊƒ.

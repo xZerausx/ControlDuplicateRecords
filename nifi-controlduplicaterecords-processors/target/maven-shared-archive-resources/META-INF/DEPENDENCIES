@@ -1,0 +1,55 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-controlduplicaterecords-processors
+
+
+From: 'an unknown organization'
+  - Caffeine cache (https://github.com/ben-manes/caffeine) com.github.ben-manes.caffeine:caffeine:jar:2.6.2
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - jBCrypt (http://www.mindrot.org/projects/jBCrypt) de.svenkubiak:jBCrypt:bundle:0.4.1
+    License: ISC/BSD licence  (http://www.mindrot.org/files/jBCrypt/LICENSE)
+  - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (http://www.bouncycastle.org/java.html) org.bouncycastle:bcpkix-jdk15on:jar:1.60
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - Bouncy Castle Provider (http://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk15on:jar:1.60
+    License: Bouncy Castle Licence  (http://www.bouncycastle.org/licence.html)
+  - JSON in Java (https://github.com/douglascrockford/JSON-java) org.json:json:jar:20140107
+    License: The JSON License  (http://json.org/license.html)
+
+From: 'ANTLR' (http://www.antlr.org)
+  - ANTLR 3 Runtime (http://www.antlr.org) org.antlr:antlr-runtime:jar:3.5.2
+    License: BSD licence  (http://antlr.org/license.html)
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-dbcp-service (http://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service) org.apache.nifi:nifi-dbcp-service:jar:1.9.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-record-path (http://nifi.apache.org/nifi-commons/nifi-record-path) org.apache.nifi:nifi-record-path:jar:1.9.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-security-utils (http://nifi.apache.org/nifi-commons/nifi-security-utils) org.apache.nifi:nifi-security-utils:jar:1.9.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.9.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+From: 'Apache Software Foundation' (http://db.apache.org/)
+  - Apache Derby Database Engine and Embedded JDBC Driver (http://db.apache.org/derby/derby/) org.apache.derby:derby:jar:10.11.1.1
+    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.11
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons DBCP (http://commons.apache.org/dbcp/) org.apache.commons:commons-dbcp2:jar:2.5.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.7
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache Commons Pool (http://commons.apache.org/proper/commons-pool/) org.apache.commons:commons-pool2:jar:2.6.0
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

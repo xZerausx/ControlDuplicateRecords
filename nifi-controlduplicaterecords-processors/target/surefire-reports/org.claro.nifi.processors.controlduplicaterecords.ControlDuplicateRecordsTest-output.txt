@@ -1,0 +1,49 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/CTI8820/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/CTI8820/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+16:59:42.920 [pool-1-thread-1] DEBUG org.apache.nifi.schema.access.AvroSchemaTextStrategy - For {path=target, filename=inFlowFileCSV, uuid=3ae1a75d-0eff-4f43-9ae7-aac679dc447a} found schema text {
+"type": "record",
+"name": "IN",
+"fields": [
+   { "name": "I_Record_Type", "type": "string","default": ""},
+   { "name": "I_Account", "type": "string","default": ""},
+   { "name": "E_Formatted_Date","type": "string","default": ""},
+   { "name": "E_Rec_Code","type": "string","default": ""},
+   { "name": "E_Status","type": "string","default": ""},
+   { "name": "O_Tap_Label","type": "string","default": ""}
+  ]
+}
+16:59:43.058 [pool-1-thread-1] DEBUG org.apache.nifi.schema.access.AvroSchemaTextStrategy - For null found schema text {
+"type": "record",
+"name": "OUT",
+"fields": [
+   { "name": "I_Record_Type", "type": "string","default": ""},
+   { "name": "I_Account", "type": "string","default": ""},
+   { "name": "E_Formatted_Date","type": "string","default": ""},
+   { "name": "E_Rec_Code","type": "string","default": ""},
+   { "name": "E_Status","type": "string","default": ""},
+   { "name": "O_Tap_Label","type": "string","default": ""}
+  ]
+}
+16:59:43.062 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |1|123456789|1581346772899|
+16:59:43.235 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL INSERT OK
+16:59:43.236 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  false
+16:59:43.238 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |2|123456789|1581346772899|
+16:59:43.252 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL INSERT OK
+16:59:43.252 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  false
+16:59:43.252 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |11|123456789|1581346772899|
+16:59:43.268 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL INSERT OK
+16:59:43.268 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  false
+16:59:43.268 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |2|123456789|1581346772899|
+16:59:43.314 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL ERRROR: 1
+16:59:43.314 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  true
+16:59:43.314 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # DISCARD
+16:59:43.314 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |12|123456789|1581346772899|
+16:59:43.334 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL INSERT OK
+16:59:43.334 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  false
+16:59:43.334 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # testString:  |12|123456789|1581346772899|
+16:59:43.362 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] ### SQL ERRROR: 1
+16:59:43.362 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # Duplicado?  true
+16:59:43.362 [pool-1-thread-1] DEBUG org.claro.nifi.processors.controlduplicaterecords.ControlDuplicateRecords - ControlDuplicateRecords[id=fd6a1843-b2c3-4d8c-8536-ed80778fd08a] # DISCARD
