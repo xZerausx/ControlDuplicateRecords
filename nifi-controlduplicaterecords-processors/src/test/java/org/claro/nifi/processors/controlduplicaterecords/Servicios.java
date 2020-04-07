@@ -20,9 +20,9 @@ public class Servicios<runner> {
         final DBCPConnectionPool service = new DBCPConnectionPool();
         runner.addControllerService("Data Base", service);
 
-        runner.setProperty(service, DBCPConnectionPool.DATABASE_URL, "jdbc:oracle:thin:@10.92.57.40:1521:ARDSPB1");
+        runner.setProperty(service, DBCPConnectionPool.DATABASE_URL, "jdbc:oracle:thin:@XXXXXXXXX:1521:ARDXXXX");
         runner.setProperty(service, DBCPConnectionPool.DB_USER, "STL");
-        runner.setProperty(service, DBCPConnectionPool.DB_PASSWORD, "stl");
+        runner.setProperty(service, DBCPConnectionPool.DB_PASSWORD, "XXXX");
         runner.setProperty(service, DBCPConnectionPool.DB_DRIVERNAME, "oracle.jdbc.OracleDriver");
         runner.setProperty(service, DBCPConnectionPool.DB_DRIVER_LOCATION, "C:\\Users\\Zeraus\\Desktop\\Nifi\\ojdbc8.jar");
         runner.setProperty(service, DBCPConnectionPool.MAX_WAIT_TIME, "500 millis");
