@@ -25,6 +25,8 @@ import org.apache.nifi.annotation.documentation.Tags;
 import org.apache.nifi.annotation.lifecycle.OnScheduled;
 import org.apache.nifi.components.PropertyDescriptor;
 import org.apache.nifi.components.PropertyValue;
+import org.apache.nifi.dbcp.DBCPService;
+import org.apache.nifi.expression.ExpressionLanguageScope;
 import org.apache.nifi.flowfile.FlowFile;
 import org.apache.nifi.flowfile.attributes.CoreAttributes;
 import org.apache.nifi.logging.ComponentLog;
@@ -34,21 +36,16 @@ import org.apache.nifi.processor.util.StandardValidators;
 import org.apache.nifi.record.path.RecordPath;
 import org.apache.nifi.record.path.RecordPathResult;
 import org.apache.nifi.record.path.util.RecordPathCache;
+import org.apache.nifi.record.path.validation.RecordPathPropertyNameValidator;
 import org.apache.nifi.schema.access.SchemaNotFoundException;
 import org.apache.nifi.serialization.*;
-import org.apache.nifi.serialization.record.*;
-import org.apache.nifi.dbcp.DBCPService;
-import org.apache.nifi.record.path.validation.RecordPathPropertyNameValidator;
-import org.apache.nifi.expression.ExpressionLanguageScope;
-import org.apache.nifi.redis.RedisConnectionPool;
+import org.apache.nifi.serialization.record.Record;
+import org.apache.nifi.serialization.record.RecordFieldType;
+import org.apache.nifi.serialization.record.RecordSchema;
 
 import java.io.OutputStream;
-import java.math.BigInteger;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 
@@ -70,12 +67,12 @@ public class ControlDuplicateRecords extends AbstractProcessor {
             .required(true)
             .identifiesControllerService(DBCPService.class)
             .build();
-    public static final PropertyDescriptor REDIS_CONNECTION_POOL = new PropertyDescriptor.Builder()
+  /*  public static final PropertyDescriptor REDIS_CONNECTION_POOL = new PropertyDescriptor.Builder()
             .name("redis-connection-pool")
             .displayName("Redis Connection Pool")
             .identifiesControllerService(RedisConnectionPool.class)
             .required(true)
-            .build();
+            .build();*/
     static final PropertyDescriptor RECORD_READER = new PropertyDescriptor.Builder()
             .name( "Reader" )
             .displayName( "Record Reader" )
@@ -234,8 +231,8 @@ public class ControlDuplicateRecords extends AbstractProcessor {
 
                     Record record;
                     final OutputStream outStream = session.write( outFlowFile );
-                    final RecordSetWriter writer= writerFactory.createWriter( getLogger(), writeSchema, outStream );
-                    final RecordSetWriter writerDiscard= writerFactory.createWriter( getLogger(), writeSchema, outStream );
+                    final RecordSetWriter writer= writerFactory.createWriter( getLogger(), writeSchema, outStream, Collections.emptyMap() );
+                    final RecordSetWriter writerDiscard= writerFactory.createWriter( getLogger(), writeSchema, outStream , Collections.emptyMap());
                     writer.beginRecordSet();
                     writerDiscard.beginRecordSet();
                     String[] splitMatchKey = matchKey.split( "," );
@@ -308,7 +305,6 @@ public class ControlDuplicateRecords extends AbstractProcessor {
     }
 
     private void modifyRecord(ProcessContext context, Record record, FlowFile flowFile, ComponentLog logger) {
-        // CONSULTAR A IVAN
         for (final String recordPathText : recordPaths) {
             final PropertyValue replacementValue = context.getProperty( recordPathText );
             final RecordPath recordPath = recordPathCache.getCompiled( recordPathText );
@@ -333,7 +329,6 @@ public class ControlDuplicateRecords extends AbstractProcessor {
             }else {
                 throw new ProcessException( exception );
             }
-            // PREGUNTAR QUE SE HACE SI DEVUELVE CUALQUIER OTRO ERROR
         }
         return true;
     }

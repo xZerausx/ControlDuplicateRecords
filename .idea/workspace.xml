@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b9b004-03a1-4cbc-8fdd-198b58bd9163" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ControlDuplicateRecords.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/test/java/org/claro/nifi/processors/controlduplicaterecords/Servicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/antlr-runtime-3.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/bcpkix-jdk15on-1.60.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/bcprov-jdk15on-1.60.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/caffeine-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/commons-dbcp2-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/commons-lang3-3.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/commons-pool2-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/derby-10.11.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/jBCrypt-0.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/json-20140107.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/nifi-controlduplicaterecords-processors-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/nifi-dbcp-service-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/nifi-record-path-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/nifi-security-utils-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/classes/META-INF/bundled-dependencies/nifi-utils-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/test-classes/META-INF/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-nar/target/test-classes/META-INF/NOTICE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/main/java/org/claro/nifi/processors/controlduplicaterecords/ControlDuplicateRecords.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/main/java/org/claro/nifi/processors/controlduplicaterecords/ControlDuplicateRecords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/target/classes/org/claro/nifi/processors/controlduplicaterecords/ControlDuplicateRecords.class" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/target/classes/org/claro/nifi/processors/controlduplicaterecords/ControlDuplicateRecords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/target/test-classes/org/claro/nifi/processors/controlduplicaterecords/Servicios.class" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/target/test-classes/org/claro/nifi/processors/controlduplicaterecords/Servicios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +45,11 @@
     <option name="myAddOrReplace" value="0" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="202" />
+    <option name="myElementSize" value="180" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +65,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -40,14 +77,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/test" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nifi-controlduplicaterecords-processors/src/test/java/org/claro/nifi/processors/controlduplicaterecords" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.claro.nifi.processors.controlduplicaterecords" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Zeraus\Desktop\Git\ControlDuplicateRecords\nifi-controlduplicaterecords-processors\src\test\java\org\claro\nifi\processors\controlduplicaterecords" />
       <recent name="C:\Users\CTI8820\Desktop\mediacion-procesador-archetype\control_duplicate_records\nifi-controlduplicaterecords-processors\src\test" />
     </key>
   </component>
@@ -171,65 +213,91 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="316" y="95" key="#ControlDuplicateRecordsTest/0.0.1440.860@0.0.1440.860" timestamp="1581521755031" />
-    <state x="102" y="92" width="1396" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583843894019">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="87" y="78" width="1192" height="573" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586267016015">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="87" y="78" width="1192" height="573" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1586267016015" />
     <state x="92" y="92" width="1256" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.860@0.0.1440.860" timestamp="1581707453317" />
     <state x="102" y="92" width="1396" height="676" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860@0.0.1600.860" timestamp="1583843894019" />
     <state x="524" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1581510121080">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="524" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1581510121080" />
+    <state x="533" y="74" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1585140662787">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="533" y="74" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1366.728@0.0.1366.728" timestamp="1585140662787" />
     <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581506469313">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860@0.0.1440.860" timestamp="1581506469313" />
-    <state width="1554" height="333" key="GridCell.Tab.0.bottom" timestamp="1583845245633">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1321" height="193" key="GridCell.Tab.0.bottom" timestamp="1586264625647">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1321" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586264625647" />
     <state width="1394" height="333" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
     <state width="1554" height="333" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
-    <state width="1554" height="333" key="GridCell.Tab.0.center" timestamp="1583845245633">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1321" height="193" key="GridCell.Tab.0.center" timestamp="1586264625646">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1321" height="193" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586264625646" />
     <state width="1394" height="333" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
     <state width="1554" height="333" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
-    <state width="1554" height="333" key="GridCell.Tab.0.left" timestamp="1583845245633">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1321" height="193" key="GridCell.Tab.0.left" timestamp="1586264625646">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1321" height="193" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586264625646" />
     <state width="1394" height="333" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
     <state width="1554" height="333" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
-    <state width="1554" height="333" key="GridCell.Tab.0.right" timestamp="1583845245633">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state width="1321" height="193" key="GridCell.Tab.0.right" timestamp="1586264625647">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1321" height="193" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586264625647" />
     <state width="1394" height="333" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582920264652" />
     <state width="1554" height="333" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583845245633" />
     <state x="249" y="83" key="Maven.ArtifactSearchDialog" timestamp="1581511005532">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="249" y="83" key="Maven.ArtifactSearchDialog/0.0.1440.860@0.0.1440.860" timestamp="1581511005532" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1583845169860">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="183" y="0" key="SettingsEditor" timestamp="1586264393987">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="183" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586264393987" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586260250590">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586260250590" />
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1583845169860" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="ControlDuplicateRecords" type="b2602c69:ProjectViewProjectNode" />
+        <item name="ControlDuplicateRecords" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_TestJson.ic" NAME="ControlDuplicateRecordsTest.TestJson Coverage Results" MODIFIED="1581602521152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1581709496985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_compareRelationship.ic" NAME="ControlDuplicateRecordsTest.compareRelationship Coverage Results" MODIFIED="1581601674577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_testCount.ic" NAME="ControlDuplicateRecordsTest.testCount Coverage Results" MODIFIED="1581602578170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_TestJson.ic" NAME="ControlDuplicateRecordsTest.TestJson Coverage Results" MODIFIED="1581602521152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/ControlDuplicateRecords_master$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1583845205441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1581709496985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/ControlDuplicateRecords$ControlDuplicateRecordsTest.ic" NAME="ControlDuplicateRecordsTest Coverage Results" MODIFIED="1586264625524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_compareRelationship.ic" NAME="ControlDuplicateRecordsTest.compareRelationship Coverage Results" MODIFIED="1581601674577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_TestCSV.ic" NAME="ControlDuplicateRecordsTest.TestCSV Coverage Results" MODIFIED="1581602474056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/control_duplicate_records$ControlDuplicateRecordsTest_testCount.ic" NAME="ControlDuplicateRecordsTest.testCount Coverage Results" MODIFIED="1581602578170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.claro.nifi.processors.controlduplicaterecords.*</FILTER>
     </SUITE>
   </component>
